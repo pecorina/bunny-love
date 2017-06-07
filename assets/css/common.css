@@ -1,1 +1,25 @@
-common.css
+[class*='col-'] {
+    min-height: 7px;
+    float: left;
+    padding: 12px;
+}
+
+.col-1 {
+    /* (1/12) x 100 */
+    width: 8.333333%;
+}
+
+.col-2 {
+    /* (2/12) x 100 */
+    width: 16.666667%;
+}
+
+.col-3 {
+    /* (3/12) x 100 */
+    width: 25%;
+}
+
+.col-4 {
+    /* (4/12) x 100 */
+    width: 33.333333%;
+}

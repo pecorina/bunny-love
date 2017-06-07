@@ -47,4 +47,19 @@ a:hover{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	padding-left: 200px;
+}
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+.img-responsive{
+	height: 200px;
+	display: flex;
+	border: 10px;
+	align-items: stretch;
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: column;
 }
